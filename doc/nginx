@@ -1,0 +1,204 @@
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ sudo apt-get remove nginx
+[sudo] password for gurudath: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Package nginx is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  libgraphicsmagick3 libgraphicsmagick++3 libgraphicsmagick1-dev
+  libgraphics-magick-perl libgraphicsmagick++1-dev
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 656 not upgraded.
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ /usr/bin/nginx -s stop  
+bash: /usr/bin/nginx: No such file or directory
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ sudo /etc/init.d/apache2 start
+ * Starting web server apache2                                                  apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1 for ServerName
+[Thu Dec 05 22:15:39 2013] [warn] NameVirtualHost *:70 has no VirtualHosts
+                                                                         [ OK ]
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ apache2/conf/httpd.conf
+bash: apache2/conf/httpd.conf: No such file or directory
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ sudo rm -f -R /usr/local/nginx && rm -f /usr/local/sbin/nginx
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ clear
+
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ sudo -s
+root@gurudath-To-be-filled-by-O-E-M:~# cd /usr/
+bin/     games/   include/ lib/     local/   sbin/    share/   src/     
+root@gurudath-To-be-filled-by-O-E-M:~# cd /usr/local/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local# ls
+bin  etc  games  include  lib  man  ngx_openresty-1.4.2.8  ngx_openresty-1.4.2.8.tar.gz  openresty  sbin  share  src  work1
+root@gurudath-To-be-filled-by-O-E-M:/usr/local# cd openresty/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty# cd ../ngx_openresty-1.4.2.8/bu
+build/  bundle/ 
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty# cd ../openresty/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty# ls
+luajit  lualib  nginx
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty# cd nginx/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx# ls
+conf  html  logs  sbin
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx# cd conf/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# ng
+ngettext  nginx     
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# ng
+ngettext  nginx     
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# ng
+ngettext  nginx     
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -c 
+fastcgi.conf            fastcgi_params.default  mime.types              nginx.conf.default      scgi_params.default     win-utf
+fastcgi.conf.default    koi-utf                 mime.types.default      ngsinx.conf_old         uwsgi_params            
+fastcgi_params          koi-win                 nginx.conf              scgi_params             uwsgi_params.default    
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -c ng
+nginx.conf          nginx.conf.default  ngsinx.conf_old     
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -c ng
+nginx.conf          nginx.conf.default  ngsinx.conf_old     
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -c nginx.conf
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:80 failed (98: Address already in use)
+nginx: [emerg] still could not bind()
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# cd ..
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx# cd conf/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -c nginx.conf
+nginx: [emerg] open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# ls
+fastcgi.conf          fastcgi_params.default  mime.types          nginx.conf.default  scgi_params.default   win-utf
+fastcgi.conf.default  koi-utf                 mime.types.default  ngsinx.conf_old     uwsgi_params
+fastcgi_params        koi-win                 nginx.conf          scgi_params         uwsgi_params.default
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -p /usr/local/openresty/nginx/conf -c nginx.conf
+nginx: [emerg] open() "/usr/local/openresty/nginx/confnginx.conf" failed (2: No such file or directory)
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -p /usr/local/openresty/nginx/conf/ -c nginx.conf
+nginx: [emerg] unknown directive "content_by_lua" in /usr/local/openresty/nginx/conf/nginx.conf:13
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# vim ng
+nginx.conf          nginx.conf.default  ngsinx.conf_old     
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# vim nginx.conf
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -p /usr/local/openresty/nginx/conf/ -c nginx.conf
+nginx: [emerg] unknown directive "content_by_lua" in /usr/local/openresty/nginx/conf/nginx.conf:13
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# vim nginx.conf
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -p /usr/local/openresty/nginx/conf/ -c nginx.conf
+nginx: [emerg] open() "/usr/local/openresty/nginx/conf/logs/error.log" failed (2: No such file or directory)
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# ls
+fastcgi.conf          fastcgi_params.default  mime.types          nginx.conf.default  scgi_params.default   win-utf
+fastcgi.conf.default  koi-utf                 mime.types.default  ngsinx.conf_old     uwsgi_params
+fastcgi_params        koi-win                 nginx.conf          scgi_params         uwsgi_params.default
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# mkdir logs
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -p /usr/local/openresty/nginx/conf/ -c nginx.conf
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# cd ..
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx# ls
+conf  html  logs  sbin
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx# cd ..
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty# ls
+luajit  lualib  nginx
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty# cd ..
+root@gurudath-To-be-filled-by-O-E-M:/usr/local# ls
+bin  etc  games  include  lib  man  ngx_openresty-1.4.2.8  ngx_openresty-1.4.2.8.tar.gz  openresty  sbin  share  src  work1
+root@gurudath-To-be-filled-by-O-E-M:/usr/local# cd openresty/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty# ls
+luajit  lualib  nginx
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty# cd nginx/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx# ls
+conf  html  logs  sbin
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx# cd conf/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# ls
+fastcgi.conf          fastcgi_params.default  logs                nginx.conf          scgi_params          uwsgi_params.default
+fastcgi.conf.default  koi-utf                 mime.types          nginx.conf.default  scgi_params.default  win-utf
+fastcgi_params        koi-win                 mime.types.default  ngsinx.conf_old     uwsgi_params
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# cd logs/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf/logs# ls
+error.log
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf/logs# vim error.log 
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf/logs# cd ..
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# ls
+fastcgi.conf          fastcgi_params.default  logs                nginx.conf          scgi_params          uwsgi_params.default
+fastcgi.conf.default  koi-utf                 mime.types          nginx.conf.default  scgi_params.default  win-utf
+fastcgi_params        koi-win                 mime.types.default  ngsinx.conf_old     uwsgi_params
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# vim logs/error.log 
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# cd html
+bash: cd: html: No such file or directory
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# vim logs/error.log 
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# mkdir html
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# cd html/
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf/html# vim index.html
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf/html# cd ..
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# nginx -p /usr/local/openresty/nginx/conf/ -c nginx.conf
+nginx: [emerg] bind() to 0.0.0.0:8080 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:8080 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:8080 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:8080 failed (98: Address already in use)
+nginx: [emerg] bind() to 0.0.0.0:8080 failed (98: Address already in use)
+nginx: [emerg] still could not bind()
+root@gurudath-To-be-filled-by-O-E-M:/usr/local/openresty/nginx/conf# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ sudo apt-get purge nginx
+[sudo] password for gurudath: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Package nginx is not installed, so not removed
+The following packages were automatically installed and are no longer required:
+  libgraphicsmagick3 libgraphicsmagick++3 libgraphicsmagick1-dev libgraphics-magick-perl libgraphicsmagick++1-dev
+Use 'apt-get autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 656 not upgraded.
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ rm -rf /etc/nginx
+rm: cannot remove `/etc/nginx/naxsi.rules': Permission denied
+rm: cannot remove `/etc/nginx/mime.types': Permission denied
+rm: cannot remove `/etc/nginx/conf.d': Permission denied
+rm: cannot remove `/etc/nginx/koi-utf': Permission denied
+rm: cannot remove `/etc/nginx/win-utf': Permission denied
+rm: cannot remove `/etc/nginx/uwsgi_params': Permission denied
+rm: cannot remove `/etc/nginx/koi-win': Permission denied
+rm: cannot remove `/etc/nginx/fastcgi_params': Permission denied
+rm: cannot remove `/etc/nginx/naxsi_core.rules': Permission denied
+rm: cannot remove `/etc/nginx/proxy_params': Permission denied
+rm: cannot remove `/etc/nginx/sites-enabled/default': Permission denied
+rm: cannot remove `/etc/nginx/scgi_params': Permission denied
+rm: cannot remove `/etc/nginx/sites-available/default': Permission denied
+rm: cannot remove `/etc/nginx/nginx.conf': Permission denied
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ sudo rm -rf /etc/nginx
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ curl http://localhost:8080/
+curl: (7) couldn't connect to host
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ curl http://localhost:8080/
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.1.19</center>
+</body>
+</html>
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ sudo apt-get install libreadline5-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Package libreadline5-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  libreadline-gplv2-dev:i386 lib64readline-gplv2-dev:i386 libreadline-gplv2-dev
+
+E: Package 'libreadline5-dev' has no installation candidate
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ print("Hello World!")
+bash: !": event not found
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ ./configure --prefix=/usr/local/nginx --add-module=../ngx_devel_kit/ --add-module=../lua-nginx-module/bash: ./configure: No such file or directory
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ curl http://localhost:8080/<h1>gurudath</h1>
+gurudath@gurudath-To-be-filled-by-O-E-M:~$ 
+

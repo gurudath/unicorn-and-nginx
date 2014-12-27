@@ -1,5 +1,9 @@
  unicorn_rails -c config/unicorn.rb -D
 
+apt-get purge nginx*
+apt-get autoremove
+apt-get update
+apt-get install nginx-full
 
 gurudath@gurudath-never-giveup:~$ cd Desktop/P
 PRACTICE/ Project/  

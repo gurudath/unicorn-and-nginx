@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    expires_in 2.minutes, :public => true
     @users = User.all
   end
 

@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+      expires_in 2.minutes, :public => true
   end
 
   # GET /users/new

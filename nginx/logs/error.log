@@ -113,3 +113,21 @@
 2014/12/27 11:01:54 [emerg] 6489#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
 2014/12/27 11:01:54 [emerg] 6489#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
 2014/12/27 11:01:54 [emerg] 6489#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2014/12/27 14:33:55 [emerg] 15340#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2014/12/27 14:33:55 [emerg] 15340#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2014/12/27 14:33:55 [emerg] 15340#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2014/12/27 14:33:55 [emerg] 15340#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2014/12/27 22:42:29 [notice] 26475#0: signal process started
+2014/12/27 22:42:29 [alert] 26475#0: kill(4920, 10) failed (3: No such process)
+2014/12/27 22:42:36 [notice] 26478#0: signal process started
+2014/12/27 22:42:36 [alert] 26478#0: kill(4920, 15) failed (3: No such process)
+2014/12/27 22:42:44 [notice] 26483#0: signal process started
+2014/12/27 22:42:44 [alert] 26483#0: kill(4920, 15) failed (3: No such process)
+2014/12/27 22:43:05 [notice] 26491#0: signal process started
+2014/12/27 22:43:05 [alert] 26491#0: kill(4920, 15) failed (3: No such process)
+2014/12/27 22:43:11 [notice] 26494#0: signal process started
+2014/12/27 22:43:11 [alert] 26494#0: kill(4920, 10) failed (3: No such process)
+2014/12/27 22:43:27 [notice] 26497#0: signal process started
+2014/12/27 22:43:27 [alert] 26497#0: kill(4920, 10) failed (3: No such process)
+2014/12/27 22:44:20 [notice] 26507#0: signal process started
+2014/12/27 22:44:20 [alert] 26507#0: kill(4920, 10) failed (3: No such process)

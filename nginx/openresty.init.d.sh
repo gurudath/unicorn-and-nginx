@@ -20,7 +20,7 @@
 
 DESC="Nginx Daemon"
 NAME=nginx
-APP_ROOT=/home/gurudath/Desktop/WORKINGSPACE/unicorn and nginx/uni_ngx_rails
+APP_ROOT=/home/gurudath/Desktop/Project/unicorn-and-nginx
 NGX_ROOT=$APP_ROOT/$NAME
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 PREFIX=/usr/local/openresty/nginx

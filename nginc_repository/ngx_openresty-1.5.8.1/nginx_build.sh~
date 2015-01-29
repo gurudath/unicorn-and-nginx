@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cd `dirname $0`
+
+# Change values for --prefix and --add-module here as per paths in your system.
+
+./configure \
+                --prefix=/home/gurudath/Desktop/Project/repngx/unicorn-and-nginx/nginc_repository/ \
+                --add-module=/home/gurudath/Desktop/Project/repngx/unicorn-and-nginx/nginc_repository/ngx_cache_purge-1.6/ \
+#                --add-module=/home/ubmkreatio/nginx_upload/nginx_soft/nginx-upload-module-2.2/ \
+#                --add-module=/home/ubmkreatio/nginx_upload/nginx_soft/nginx-upload-progress-module-0.9.0/ \
+#                --add-module=/home/ubmkreatio/nginx_upload/nginx_soft/echo-nginx-module-0.51/ \
+                "$@"
+

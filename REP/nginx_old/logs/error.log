@@ -1,0 +1,12 @@
+2014/12/30 11:42:03 [error] 13234#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gurudathweb.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4000/", host: "gurudathweb.com"
+2014/12/30 11:42:03 [error] 13234#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gurudathweb.com, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4000/favicon.ico", host: "gurudathweb.com"
+2014/12/30 11:42:03 [error] 13234#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gurudathweb.com, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:4000/favicon.ico", host: "gurudathweb.com"
+2015/01/01 12:51:58 [emerg] 31285#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 12:51:58 [emerg] 31285#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 12:51:58 [emerg] 31285#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 13:03:05 [emerg] 31599#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 13:03:05 [emerg] 31599#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 13:03:05 [emerg] 31599#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 13:03:05 [emerg] 31599#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 13:03:05 [emerg] 31599#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 13:03:05 [emerg] 31599#0: still could not bind()

@@ -20,7 +20,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
-
+gem 'yui-compressor'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
@@ -48,4 +48,5 @@ gem 'gdata_19', '1.1.5'
 gem 'hpricot'
 # gem 'unicorn'
  gem 'contacts'
-
+gem 'aes'
+gem 'aescrypt'

@@ -1,0 +1,97 @@
+2015/01/01 21:03:40 [emerg] 29198#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 21:03:40 [emerg] 29198#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 21:03:40 [emerg] 29198#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/01 21:25:43 [emerg] 29510#0: unknown directive "image_filter" in /home/gurudath/Desktop/Project/repngx/unicorn-and-nginx/nginc_repository//nginx/conf/nginx.conf:57
+2015/01/01 21:53:19 [emerg] 9725#0: mkdir() "/home/gurudath/RubymineProjects/unicorn-and-nginx/nginx/cache" failed (2: No such file or directory)
+2015/01/01 21:55:26 [error] 9763#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 127.0.0.1, server: gurudathweb.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:4000/", host: "gurudathweb.com"
+2015/01/01 21:59:11 [alert] 9763#0: *9 stalled cache updating, error:0 while closing request, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 12:28:11 [emerg] 15258#0: unknown directive "upload_pass" in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:50
+2015/01/02 12:29:14 [emerg] 15341#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 12:29:14 [emerg] 15341#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 12:29:14 [emerg] 15341#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 12:29:31 [emerg] 15346#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 12:29:31 [emerg] 15346#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 12:29:31 [emerg] 15346#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 12:41:11 [crit] 15354#0: unlink() "/home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/cache/d5779c3e9bd93f19ffccdd252820d0a4" failed (2: No such file or directory)
+2015/01/02 13:02:56 [emerg] 16160#0: "geoip2" directive is not allowed here in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:55
+2015/01/02 13:05:20 [emerg] 16207#0: "geoip2" directive is not allowed here in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:55
+2015/01/02 13:05:56 [emerg] 16213#0: "geoip2" directive is not allowed here in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:55
+2015/01/02 13:06:07 [emerg] 16216#0: "geoip2" directive is not allowed here in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:55
+2015/01/02 13:10:36 [emerg] 16273#0: MMDB_open("/home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/geoip2_packages/maxmind-country.mmdb") failed - Error opening the specified MaxMind DB file in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:14
+2015/01/02 13:11:49 [emerg] 16316#0: MMDB_open("/home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/geoip2_packages/maxmind-country.mmdb") failed - Error opening the specified MaxMind DB file in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:14
+2015/01/02 13:15:05 [emerg] 16355#0: unexpected "}" in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:18
+2015/01/02 13:15:46 [emerg] 16364#0: invalid variable name "echo" in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:17
+2015/01/02 13:16:29 [emerg] 16369#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 13:16:29 [emerg] 16369#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 13:16:29 [emerg] 16369#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 14:35:12 [emerg] 16662#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 14:35:12 [emerg] 16662#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 14:35:12 [emerg] 16662#0: bind() to 0.0.0.0:80 failed (98: Address already in use)
+2015/01/02 14:48:59 [emerg] 16974#0: the "spdy" parameter requires ngx_http_spdy_module in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:40
+2015/01/02 14:54:53 [error] 23065#0: *1 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:54 [error] 23065#0: *2 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:54 [error] 23065#0: *3 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:54 [error] 23065#0: *4 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:54 [error] 23065#0: *5 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:54 [error] 23065#0: *6 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:54 [error] 23065#0: *7 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:54 [error] 23065#0: *8 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *9 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *10 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *11 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *12 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *13 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *14 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *15 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *16 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *17 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *18 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *19 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *20 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *21 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *22 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *23 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *24 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *25 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *26 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:55 [error] 23065#0: *27 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:56 [error] 23065#0: *28 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:56 [error] 23065#0: *29 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:56 [error] 23065#0: *30 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:57 [error] 23065#0: *31 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:57 [error] 23065#0: *32 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:57 [error] 23065#0: *33 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:57 [error] 23065#0: *34 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:57 [error] 23065#0: *35 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:57 [error] 23065#0: *36 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:54:58 [error] 23065#0: *37 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *38 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *39 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *40 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *41 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *42 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *43 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *44 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *45 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:03 [error] 23065#0: *46 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:04 [error] 23065#0: *47 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:04 [error] 23065#0: *48 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:04 [error] 23065#0: *49 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:04 [error] 23065#0: *50 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:04 [error] 23065#0: *51 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 14:55:04 [error] 23065#0: *52 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 15:19:49 [error] 23065#0: *53 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 15:19:49 [error] 23065#0: *54 no "ssl_certificate" is defined in server listening on SSL port while SSL handshaking, client: 127.0.0.1, server: 0.0.0.0:80
+2015/01/02 15:25:11 [emerg] 23346#0: invalid number of arguments in "ssl_certificate" directive in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:45
+2015/01/02 15:27:06 [emerg] 23357#0: invalid number of arguments in "ssl_certificate" directive in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:45
+2015/01/02 15:28:01 [emerg] 23373#0: BIO_new_file("/home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/server.gurudathweb.com.crt") failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/server.gurudathweb.com.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2015/01/02 15:29:32 [emerg] 23450#0: PEM_read_bio_X509_AUX("/home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/server.crt") failed (SSL: error:0906D06C:PEM routines:PEM_read_bio:no start line:Expecting: TRUSTED CERTIFICATE)
+2015/01/02 15:42:18 [emerg] 23518#0: PEM_read_bio_X509_AUX("/home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/server.crt") failed (SSL: error:0906D06C:PEM routines:PEM_read_bio:no start line:Expecting: TRUSTED CERTIFICATE)
+2015/01/02 15:46:37 [emerg] 23551#0: PEM_read_bio_X509_AUX("/home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/server.crt") failed (SSL: error:0906D06C:PEM routines:PEM_read_bio:no start line:Expecting: TRUSTED CERTIFICATE)
+2015/01/02 15:49:43 [emerg] 23628#0: "geoip2" directive is not allowed here in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:72
+2015/01/02 17:47:27 [emerg] 3919#0: unexpected "}" in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:88
+2015/01/02 17:47:54 [emerg] 3923#0: unknown "geoip2_data_country_code" variable
+2015/01/02 18:00:36 [emerg] 10136#0: unknown directive "empty_gif" in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:122
+2015/01/02 18:01:32 [emerg] 10146#0: could not build the variables_hash, you should increase either variables_hash_max_size: 512 or variables_hash_bucket_size: 64
+2015/01/02 18:04:08 [emerg] 10171#0: could not build the variables_hash, you should increase either variables_hash_max_size: 512 or variables_hash_bucket_size: 64
+2015/01/02 18:13:12 [emerg] 16261#0: "geoip_country" directive is duplicate in /home/gurudath/RubymineProjects/unicorn-and-nginx/nginc_repository/nginx/conf/nginx.conf:29
